@@ -4,7 +4,8 @@ module com.example.aula31 {
 
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
+    requires java.sql;
 
-    opens com.example.aula31 to javafx.fxml;
-    exports com.example.aula31;
+    opens com.example.Home to javafx.fxml;
+    exports com.example.Home;
 }
